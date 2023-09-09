@@ -4,7 +4,7 @@ pipeline{
         maven 'M2_HOME'
     }
     stages{
-    stage(mvn clean){
+    stage('mvn clean'){
         steps{
             mvn clean
         }
