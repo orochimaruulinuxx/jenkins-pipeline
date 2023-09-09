@@ -8,7 +8,7 @@ pipeline{
     }
     stage('clean articfat'){
         steps{
-            sh 'mvn clean'
+            sh 'echo clean'
         }
     }
 
