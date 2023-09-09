@@ -8,7 +8,7 @@ pipeline{
     }
     stage('clean articfat'){
         steps{
-            sh 'echo clean s'
+            sh 'echo clean'
         }
     }
 
