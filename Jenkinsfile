@@ -1,14 +1,14 @@
 pipeline{
     agent any
     stages{
-    stage(hello){
+    stage(mvn clean){
         steps{
-            sh 'echo hello'
+            sh 'mvn clean'
         }
     }
-    stage('clean articfat'){
+    stage('mvn install'){
         steps{
-            sh 'echo clean'
+            sh 'mvn install'
         }
     }
 
