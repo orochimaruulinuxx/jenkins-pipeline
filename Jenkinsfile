@@ -6,17 +6,17 @@ pipeline{
     stages{
     stage('mvn clean'){
         steps{
-            sh mvn clean
+        sh mvn clean
         }
     }
     stage('mvn install'){
         steps{
-            sh mvn install
+        sh mvn install
         }
     }
     stage('mvn package'){
         steps{
-            sh  mvn package
+        sh  mvn package
         }
     }
 
