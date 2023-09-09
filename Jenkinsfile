@@ -8,12 +8,12 @@ pipeline{
     }
     stage('mvn install'){
         steps{
-            sh 'mvn install'
+            sh '/opt/maven/bin/mvn install'
         }
     }
     stage('mvn package'){
         steps{
-            sh 'mvn package'
+            sh '/opt/maven/bin/mvn package'
         }
     }
 
