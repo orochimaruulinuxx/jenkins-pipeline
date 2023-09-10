@@ -21,7 +21,7 @@ pipeline{
     }
     stage('upload artifact'){
         steps{
-        sh 'curl --upload-file target/bioMedical-0.0.2-SNAPSHOT.jar -u admin:admin -v http://ec2-34-228-140-15.compute-1.amazonaws.com:8081/repository/project-app1'
+        sh 'curl --upload-file target/bioMedical-0.0.3-SNAPSHOT.jar -u admin:admin -v http://ec2-18-204-9-87.compute-1.amazonaws.com:8081/repository/project-app1'
         }
 
     }
